@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-8.0.11-sources">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/IdeaProjects/Hotel Management/mysql-connector-java-5.1.15-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
