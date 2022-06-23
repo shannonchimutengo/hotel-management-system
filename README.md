@@ -6,7 +6,7 @@
 
 ## Piece of Code
 
-- add_room.addActionListener(onclick ->{
+add_room.addActionListener(onclick ->{
           if(room_number.getText().equals("")||
                   Objects.equals(bed_field.getSelectedItem(), "") ||price_field.getText().equals(""))
           {
