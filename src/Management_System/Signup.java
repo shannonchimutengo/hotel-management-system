@@ -31,8 +31,8 @@ class SignUpPage implements MouseListener  {
     JLabel   securityQuestion   =       new JLabel("Security Question");
     JLabel   answer   =       new JLabel("Answer");
     JLabel   address  =       new JLabel("Address");
-    ImageIcon background =   new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//signup.png");
-    ImageIcon close_button  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//exit.png");
+    ImageIcon background =   new ImageIcon("src//Management images//signup.png");
+    ImageIcon close_button  = new ImageIcon("src//Management images//exit.png");
 
     JLabel   Icon  =  new JLabel(background);
     JLabel close_icon =   new JLabel(close_button);
