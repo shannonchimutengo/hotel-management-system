@@ -1,4 +1,7 @@
 # hotel-management-system
+
+![Menu](https://scontent.fhre1-1.fna.fbcdn.net/v/t39.30808-6/276168155_140734838439715_2106096023964622113_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=pPtmAemtuy0AX8AP8hb&_nc_ht=scontent.fhre1-1.fna&oh=00_AT8gyZA7a_GAmz3SMuz8i2nYBdV_dJM1yyKIfey3z6s1jw&oe=62B93498)
+
 *This project was developed using java programming lunguage and however most of the code was written using imperative programming.
 
 **Imperative programming** is a software development paradigm where functions are implicitly coded in every step required to solve a problem. In imperative programming, every operation is coded and the code itself specifies how the problem is to be solved, which means that pre-coded models are not called on 
