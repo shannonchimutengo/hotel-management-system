@@ -6,8 +6,6 @@ import java.awt.*;
 import java.sql.*;
 
 
-@SuppressWarnings("ALL")
-
 public class Forgot_Password  extends Thread{
 
     JFrame forgot_password  = new JFrame();
