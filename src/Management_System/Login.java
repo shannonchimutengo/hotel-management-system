@@ -28,7 +28,7 @@ public class Login  extends Thread{
         login_message.setFont(new Font("Tahoma",Font.BOLD,25));
         login_message.setBounds(300,25,300,40);
 
-        background  =  new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//admin Home.png");
+        background  =  new ImageIcon("src//Management images//admin Home.png");
         Icon =  new JLabel(background);
         Icon.setSize(1366,768);
         Icon.setBounds(0,0,1366,768);
