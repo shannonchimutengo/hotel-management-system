@@ -6,3 +6,42 @@
 
 ## Piece of Code
 
+- add_room.addActionListener(onclick ->{
+          if(room_number.getText().equals("")||
+                  Objects.equals(bed_field.getSelectedItem(), "") ||price_field.getText().equals(""))
+          {
+              JOptionPane.showMessageDialog(null,
+                      "Please Fill All Details",
+                      "VALUE ERROR",
+                      JOptionPane.ERROR_MESSAGE,panel_exit);
+          }else {
+
+              allRoomsDatabase();
+              select_all_rows();
+          }
+      });
+        allocate_customer.addActionListener(onclick ->{
+
+                String selected_room = (String) customer_room_number_field.getSelectedItem();
+                checkin_database_connection();
+                try {
+                    Class.forName("com.mysql.jdbc.Driver");
+                    Connection connection = DriverManager.getConnection(databaseUrl,username,password);
+
+                    Statement statement  = connection.createStatement();
+                    statement.executeUpdate("update all_rooms set status = 'booked' where room_number = '"+selected_room+"';");
+
+                    connection.close();
+                    System.out.println(selected_room);
+
+                }catch(ClassNotFoundException | SQLException e){
+                    JOptionPane.showMessageDialog(null,
+                            "Failed to update room status",
+                            "Table Error",
+                            JOptionPane.ERROR_MESSAGE,panel_exit);
+
+                }
+
+                allocate_customer.setEnabled(false);
+
+        }); // actionListener
