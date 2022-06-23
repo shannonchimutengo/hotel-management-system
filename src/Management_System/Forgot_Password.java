@@ -31,7 +31,7 @@ public class Forgot_Password  extends Thread{
     JLabel display_text = new JLabel("Reset Password");
 
     Forgot_Password(){
-        background = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//admin Home.png");
+        background = new ImageIcon("src//Management images//admin Home.png");
         Icon = new JLabel(background);
         Icon.setBounds(0,0,1366,768);
 
