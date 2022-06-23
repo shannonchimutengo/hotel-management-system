@@ -12,7 +12,7 @@ import java.time.LocalDate;
 
 class Checkout_Page extends JPanel{
 
-    ImageIcon panel_background  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//all pages background.png");
+    ImageIcon panel_background  = new ImageIcon("src//Management images//all pages background.png");
     JLabel checkout_panel_background = new JLabel(panel_background);
 
     JLabel checkout_room_number = new JLabel("Room Number");
@@ -47,9 +47,9 @@ class Checkout_Page extends JPanel{
     JButton checkout_button = new JButton("CheckOut");
     JButton clear_all_field_button = new JButton("Clear");
 
-    ImageIcon customer_checkout_image  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//Customer Check Out.png");
+    ImageIcon customer_checkout_image  = new ImageIcon("src//Management images//Customer Check Out.png");
     JLabel icon = new JLabel(customer_checkout_image);
-    ImageIcon close_button  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//exit.png");
+    ImageIcon close_button  = new ImageIcon("src//Management images//exit.png");
     JButton close_panel_button = new JButton(close_button);
 
     JTable table = new JTable();
@@ -322,15 +322,15 @@ public class Main_Display{
  *
  * */
     JFrame display_menu = new JFrame();
-    ImageIcon background_image =   new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//home.png");
-    ImageIcon close_button  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//exit.png");
-    ImageIcon checkin_close_button  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//close.png");
-    ImageIcon manage_room_image  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//manage room.png");
-    ImageIcon customer_checkin_image  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//Customer Registration & Check IN.png");
-    ImageIcon customer_checkout_image  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//Customer Check Out.png");
-    ImageIcon customer_bill  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//Customer Details Bill.png");
-    ImageIcon logout_image  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//logout.png");
-    ImageIcon panel_background  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//all pages background.png");
+    ImageIcon background_image =   new ImageIcon("src//Management images//home.png");
+    ImageIcon close_button  = new ImageIcon("src//Management images//exit.png");
+    ImageIcon checkin_close_button  = new ImageIcon("src//Management images//close.png");
+    ImageIcon manage_room_image  = new ImageIcon("src//Management images//manage room.png");
+    ImageIcon customer_checkin_image  = new ImageIcon("src//Management images//Customer Registration & Check IN.png");
+    ImageIcon customer_checkout_image  = new ImageIcon("src//Management images//Customer Check Out.png");
+    ImageIcon customer_bill  = new ImageIcon("src//Management images//Customer Details Bill.png");
+    ImageIcon logout_image  = new ImageIcon("src//Management images//logout.png");
+    ImageIcon panel_background  = new ImageIcon("src//Management images//all pages background.png");
 
 
     JButton manage_room  = new JButton (manage_room_image);
@@ -363,7 +363,7 @@ public class Main_Display{
     Object [] tableHeader  = {"Room number","Bed","Price","Status"};
     Object [] cols = new Object[6];
     JPanel manage_panel = new JPanel();
-    ImageIcon panel_exit  = new ImageIcon("C://Users//Shannon//IdeaProjects//Hotel Management//src//Management images//close.png");
+    ImageIcon panel_exit  = new ImageIcon("src//Management images//close.png");
     JButton close_panel_button = new JButton(panel_exit);
 
     JLabel customer_name = new JLabel("Name");
