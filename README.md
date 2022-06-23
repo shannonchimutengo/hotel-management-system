@@ -48,3 +48,10 @@
                 allocate_customer.setEnabled(false);
 
    ###     }); // actionListener
+   
+   ## Database Details 
+   **The database used in this project is Maria Db  through Xampp**
+   - String username = "root";
+   - String password = "";
+   -  String databaseUrl = "jdbc:mysql://localhost:3306/signup";
+
