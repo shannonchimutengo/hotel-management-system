@@ -8,6 +8,7 @@
 ## Piece of Code
 
 ### room.addActionListener(onclick ->{
+
           if(room_number.getText().equals("")||
                   Objects.equals(bed_field.getSelectedItem(), "") ||price_field.getText().equals(""))
           {
@@ -48,6 +49,7 @@
    ###     }); // actionListener
    
    ## Database Details 
+   
    **The database used in this project is Maria Db  through [Xampp](https://www.apachefriends.org/)**
    - String username = "root";
    - String password = "";
