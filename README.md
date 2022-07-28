@@ -1,4 +1,5 @@
 # hotel-management-system
+![hotel-menu](hotel.jpg)
 
 *This project was developed using java programming lunguage and however most of the code was written using imperative programming.
 
